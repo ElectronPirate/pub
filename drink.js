@@ -4,6 +4,7 @@ class Drink {
     this.price = price;
     this.alcoholLevel = level;
   }
+
 }
 
 module.exports = Drink;
