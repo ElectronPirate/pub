@@ -4,6 +4,12 @@ class Pub {
     this.till = till;
     this.drinks = [];
   }
+
+  addDrink(drink) {
+    this.drinks.push(drink);
+  }
 }
+
+
 
 module.exports = Pub;
